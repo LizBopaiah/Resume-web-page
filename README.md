@@ -1,2 +1,7 @@
 # Resume-web-page
-Developed a responsive and interactive resume webpage using HTML and CSS to showcase my skills, education, projects, and contact details. Implemented a clean UI with easy navigation, enhancing user experience and accessibility across devices.
+I created a personal resume webpage using HTML and CSS to showcase my skills, education, and projects.
+**Highlights of the Project:
+- A clean and responsive design that works well on all devices.
+- Easy navigation between sections like About, Skills, Projects, and Contact.
+- Professional yet creative layout to present my profile in an engaging way.
+This project helped me improve my web development skills and better understand how to design user-friendly interfaces.
