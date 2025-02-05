@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background image.JPG'); /* Replace with your background image file */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Column */
+.left {
+    width: 20%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Slight overlay for better readability */
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 20px 0;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    width: 160px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Right Column */
+.right {
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 30px;
+    overflow-y: auto;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section video {
+    margin-bottom: 10px;
+    display: block;
+    width: 446px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
